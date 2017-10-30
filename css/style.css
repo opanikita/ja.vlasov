@@ -27,7 +27,7 @@ header{
     text-align: right;
 }
 .clearrow::after{
-    content: ="";
+    content: "";
     display: table;
     clear: both;
 }
@@ -36,10 +36,11 @@ header{
 }
 .container{
     width: 100%;
+    max-width: 940px;
     margin: 0 auto;
 }
 a, button{
-    color: #000000;
+    color: #ffffff;
 }
 h2{
     font-size: 30px;
