@@ -21,9 +21,6 @@ header{
     float: left;
     display: block;
 }
-ul.nav>li{
-    display: inline-block;
-}
 .login-user{
     width: 30%;
     float: right;
@@ -43,9 +40,6 @@ ul.nav>li{
 }
 a, button{
     color: #000000;
-}
-ul.nav{
-    list-style: none;
 }
 h2{
     font-size: 30px;
