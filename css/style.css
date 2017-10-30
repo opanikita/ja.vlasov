@@ -22,10 +22,20 @@ header{
 }
 .login-user{
     float: right;
-    display: block;
+}
+.clearrow::after{
+    content: ="";
+    display: table;
+    clear: both;
+}
+.container{
+    
 }
 a, button{
-    color: #ffffff;
+    color: #000000;
+}
+ul.nav{
+    list-style: none;
 }
 h2{
     font-size: 30px;
