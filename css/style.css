@@ -17,19 +17,29 @@ header{
     font-size: 16px;
 }
 .navmenu{
+    width: 70%;
     float: left;
     display: block;
 }
+ul.nav>li{
+    display: inline-block;
+}
 .login-user{
+    width: 30%;
     float: right;
+    text-align: right;
 }
 .clearrow::after{
     content: ="";
     display: table;
     clear: both;
 }
+.logo{
+    text-align: center;
+}
 .container{
-    
+    width: 100%;
+    margin: 0 auto;
 }
 a, button{
     color: #000000;
