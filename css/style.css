@@ -9,7 +9,6 @@
 }
 body{
     line-height: calc(24/14);
-    
     background-size: cover;
     background: url("img/backgr.png") center no-repeat;
 }
@@ -23,6 +22,7 @@ header{
 }
 .login-user{
     float: right;
+    display: block;
 }
 a, button{
     color: #ffffff;
