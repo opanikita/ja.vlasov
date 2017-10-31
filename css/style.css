@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 body{
-    color: #ffffff
+    color: #ffffff;
     line-height: calc(24/14);
     background: url("img/backgr.png") center no-repeat;
     background-size: cover;
@@ -21,6 +21,14 @@ header{
     width: 70%;
     float: left;
     display: block;
+}
+ul.nav {
+    list-style: none;
+    padding: 0;
+}
+ul.nav>li {
+    display: inline-block;
+    margin: 33px 0 27px 0;
 }
 .login-user{
     width: 30%;
@@ -44,6 +52,10 @@ header{
 a, button{
     color: #ffffff;
 }
+h2{
+    font-size: 30px;
+    line-height: calc(42/30);
+}
 .quality{
     margin: 0 0 0 20px;
 }
@@ -63,7 +75,4 @@ a, button{
     display: block;
     background-color: #ffffff;
     transform: rotate(45deg);
-}
-h2{
-    font-size: 30px;
 }
