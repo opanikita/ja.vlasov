@@ -10,8 +10,8 @@
 body{
     color: #ffffff
     line-height: calc(24/14);
-    background-size: cover;
     background: url("img/backgr.png") center no-repeat;
+    background-size: cover;
 }
 header{
     background-color: #000000;
@@ -61,7 +61,7 @@ a, button{
     width: 20px;
     height: 20px;
     display: block;
-    color: #ffffff;
+    background-color: #ffffff;
     transform: rotate(45deg);
 }
 h2{
