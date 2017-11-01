@@ -14,11 +14,23 @@
         <div class="container clearrow">
             <div class="main-menu">
                 <nav class="navmenu">
-                    <a href="#">Информация</a>
-                    <a href="news.html">Новости</a>
-                    <a href="#">Прайс-лист</a>
-                    <a href="shop.html">Магазин</a>
-                    <a href="#">Контакты</a>
+                    <ul class="nav">
+                        <li>
+                            <a href="#">Информация</a>
+                        </li>
+                        <li>
+                            <a href="news.html">Новости</a>
+                        </li>
+                        <li>
+                            <a href="#">Прайс-лист</a>
+                        </li>
+                        <li>
+                            <a href="shop.html">Магазин</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
                 </nav>
             </div>
             <div class="login-user">
@@ -50,83 +62,96 @@
                     </p>
                 </div>
             </div>
-            <div class="page">
+            <div class="page clearrow">
                 <div class="info">
                     <h3>Новости</h3>
                     <div class="news">
-                        <p>Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
-                        <a class="date-txt" href="#">11 января</a>
-                        <a class="link-of-news" href="#">Подробнее</a>
-                        <p>В нашей команде пополнение, Борис "Бритва" Стригунец, обладaтель множества титулов и наград пополнил
-                            наши стройные ряды
-                        </p>
-                        <time>18 января</time>
+                        <article>
+                            <p>Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+                            <a class="date-txt" href="#"></a>
+                        </article>
+                        <article>
+                            <p>В нашей команде пополнение, Борис "Бритва" Стригунец, обладaтель множества титулов и наград пополнил наши
+                                стройные ряды
+                            </p>
+                        </article>
+                        <a class="date-txt" href="#">18 января</a>
+                        <a class="button" href="news.html">Все новости</a>
                     </div>
-                    <a class="button" href="news.html">Все новости</a>
-                </div>
-                <div class="photogal">
                     <h3>Фотогалерея</h3>
-                    <button type="button" class="button">Назад</button>
-                    <button type="button" class="button">Вперед</button>
+                    <div class="photogal">
+                        <img src="css/img/photog.jpg">
+                        <button type="button" class="button">Назад</button>
+                        <button type="button" class="button">Вперед</button>
+                    </div>
                 </div>
             </div>
-            <div class="contacts">
-                <h3>Контактная информация</h3>
-                <p>Барбершоп "Бородинский"
-                    <br> Адрес:г. Санкт-Петербург,б.Конюшенная,д.19/8
-                    <br> Телефон: +7 (495) 666-02-66</p>
+            <div class="page clearrow">
+                <div class="contacts">
+                    <h3>Контактная информация</h3>
+                    <p>Барбершоп "Бородинский"
+                        <br> Адрес:г. Санкт-Петербург,б.Конюшенная,д.19/8
+                        <br> Телефон: +7 (495) 666-02-66</p>
     
-                <p>Время работы:
-                    <br> Пн-Пт: с 10:00 до 22:00
-                    <br> Сб-Вс: с 10:00 до 19:00</p>
+                    <p>Время работы:
+                        <br> Пн-Пт: с 10:00 до 22:00
+                        <br> Сб-Вс: с 10:00 до 19:00</p>
     
-                <a class="button" href="#">Как проехать</a>
-                <a class="button" href="#">Обратная связь</a>
-            </div>
-            <div id="rec">
-                <h3>Записаться</h3>
-                <p>Укажите жедаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-                <form action="#">
-                    <div class="form-group">
-                        <label for="dat1">Дата</label>
-                        <input type="date" id="dat1" placeholder="08.10.2017"></input>
-                    </div>
-                    <div class="form-group">
-                        <label for="time2">Время</label>
-                        <input type="time" id="time2" placeholder="10:00"></input>
-                    </div>
-                    <div class="form-group">
-                        <label for="txt3">Имя</label>
-                        <input type="text" id="txt3" placeholder="Борода"></input>
-                    </div>
-                    <div class="form-group">
-                        <label for="tel4">Телефон</label>
-                        <input type="number" id="tel4" placeholder="+7 123 456 78 90"></input>
-                    </div>
-                    <button type="submit">Отправить</button>
-                </form>
+                    <a class="button" href="#">Как проехать</a>
+                    <a class="button" href="#">Обратная связь</a>
+                </div>
+                <div class="form">
+                    <h3>Записаться</h3>
+                    <p>Укажите жедаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+                    <form class="notes" action="#">
+                        <div class="form-group">
+                            <label for="txt1">Дата</label>
+                            <input type="text" id="txt1" placeholder="08.10.2017"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="txt2">Время</label>
+                            <input type="text" id="txt2" placeholder="10:00"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="txt3">Имя</label>
+                            <input type="text" id="txt3" placeholder="Борода"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="txt4">Телефон</label>
+                            <input type="text" id="txt4" placeholder="+7 123 456 78 90"></input>
+                        </div>
+                        <button class="button" type="submit">Отправить</button>
+                    </form>
+                </div> 
             </div>
     </main>
 
     <footer>
-        <div class="fcontacts">
+        <div class="footer clearrow">
+            <div class="fcontacts">
                 <p>Барбершоп "Бородинский"</p>
                 <p>Адрес:г. Санкт-Петербург,б.Конюшенная,д.19/8</p>
                 <a href="">Как нас найти?</a>
                 <p>Телефон: +7 (495) 666-02-66</p>
-        </div>
-
-        <div class="social">
-            <p>Давайте дружить!</p>
-            <div class="socialbox">
-                <a class="socialbt" href="#">Вконтакте</a>
-                <a class="socialbt" href="#">Фейсбук</a>
-                <a class="socialbt" href="#">Инстаграм</a>
             </div>
-        </div>
-        <div class="whocreate">
+            <div class="social">
+                <p>Давайте дружить!</p>
+                <div class="socialbox">
+                    <div class="vk">
+                        <a href="#"></a>
+                    </div>
+                    <div class="fb">
+                        <a href="#"></a>
+                    </div>
+                    <div class="inst">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="whocreate">
                 <p>Разработано:</p>
-            <a class="button" href="https://htmlacademy.ru" title="Академия html">Html academy</a>
+                <a class="button" href="https://htmlacademy.ru" title="Академия html">Html academy</a>
+            </div>
         </div>
     </footer>
        
