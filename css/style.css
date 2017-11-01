@@ -86,6 +86,10 @@ h2{
 .page{
     background: url("img/bg-wr.jpg") no-repeat;
 }
+article>h3{
+    font-size: 20px;
+    color: #000000;
+}
 article>p{
     color: #000000;
     line-height: calc(24/14);
@@ -111,7 +115,7 @@ footer{
     float: left;
 }
 .whocreate{
-    float: left;
+    float: right;
 }
 .socialbtn{
     background-color: #000000;
