@@ -20,7 +20,6 @@ header{
 .main-menu{
     width: 70%;
     float: left;
-    display: block;
 }
 ul.nav {
     list-style: none;
@@ -28,7 +27,7 @@ ul.nav {
 }
 ul.nav>li {
     display: inline-block;
-    margin: 13px 0 13px 0;
+    margin: 20px;
 }
 .login-user{
     width: 30%;
@@ -36,10 +35,10 @@ ul.nav>li {
     text-align: right;
 }
 .login-user>a{
-    padding: 25px 0 11px 0;
-    margin: 20px 30px 13px 30px;
+    padding: 20px;
+    /* margin: 20px 30px 13px 30px; */
     font-size: 16px;
-
+    display: inline-block;
 }
 .clearrow::after{
     content: "";
@@ -59,12 +58,12 @@ a, button{
     color: #ffffff;
 }
 h2{
-    display: block;
     font-size: 30px;
     line-height: calc(42/30);
 }
 .quality{
-    margin: 0 0 0 20px;
+    width: 100%;
+    margin: 20px 0;
 }
 .quality-item{
     width: 33.333333%;
@@ -85,6 +84,11 @@ h2{
 }
 .page{
     background: url("img/bg-wr.jpg") no-repeat;
+    color: #000;
+    margin: 50px;
+}
+article>h3{
+    font-size: 20px;
 }
 article>p{
     color: #000000;
@@ -93,28 +97,29 @@ article>p{
 p{
     display: block;
 }
-.news{
+.news, .photogal, .contacts, .form{
     float: left;
-    width: 45%;
-}
-.photogal{
-    float: right;
-    width: 45%;
+    width: 50%;
+    padding: 45px;
 }
 footer{
     background-color: #222222;
 }
-.fcontacts{
+.fcontacts, .social, .whocreate{
     float: left;
+    width: 33.333333%;
 }
 .social{
-    float: left;
+    text-align: center;
 }
 .whocreate{
-    float: left;
+    text-align: center;
 }
-.vk{
-    background-color: #000000;
-    background-image: url("img/vk.png");
+.socialbtn{
+    margin: 5px;
+    background: url("img/vk.png") no-repeat 50% #000;
+    width: 43px;
+    height: 43px;
+    display: inline-block;
 }
 
