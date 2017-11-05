@@ -40,7 +40,7 @@ ul.nav>li {
     font-size: 16px;
     display: inline-block;
 }
-.clearrow::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -89,6 +89,10 @@ h2{
 }
 article>h3{
     font-size: 20px;
+}
+article>h3{
+    font-size: 20px;
+    color: #000000;
 }
 article>p{
     color: #000000;
