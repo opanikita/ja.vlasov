@@ -126,4 +126,7 @@ footer{
     height: 43px;
     display: inline-block;
 }
+h1{
+    display: block;
+}
 
