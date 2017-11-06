@@ -141,7 +141,12 @@ footer{
     background: url("catalog/bg-catalog.png");
     color: #000;
 }
+.breadcrumbs a{
+    color: #000;
+    margin-right: 15px;
+}
 .filter-catalog{
+    width: 100%;
     margin: 50px 0;
 }
 .filter{
@@ -151,18 +156,20 @@ footer{
 fieldset{
     border: 0;
 }
-.catalog{
+/*.catalog{
     float: right;
-    width: 80%;
-    margin-left: 50px; 
-    }
+    width: 80%; 
+    }*/
 .catalog>ul{
     list-style: none;
     display: block;
 }
 .catalog-item{
-    width: 25%;
+    margin: 0 20px 20px 0;
+    width: 27%;
     float: left;
+    text-align: right;
+    box-shadow: 0 0 7px #949494;
 }
 h1{
     display: block;
@@ -174,7 +181,7 @@ a.button{
     
 }
 .pagination{
-    margin-top: 30px;
+    
 }
 .pagination .button{
     display: inline-block;
