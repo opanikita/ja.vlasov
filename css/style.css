@@ -153,7 +153,8 @@ fieldset{
 }
 .catalog{
     float: right;
-    width: 80%; 
+    width: 80%;
+    margin-left: 50px; 
     }
 .catalog>ul{
     list-style: none;
@@ -176,6 +177,9 @@ a.button{
     margin-top: 30px;
 }
 .pagination .button{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
     width: 45px;
     margin-right: 10px;
 }
