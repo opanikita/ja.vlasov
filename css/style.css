@@ -134,13 +134,30 @@ footer{
     height: 43px;
     display: inline-block;
 }
+.filter-catalog{
+    margin: 50px 0;
+}
 .filter{
+    float: left;
     width: 20%;
 }
+fieldset{
+    border: 0;
+}
 .catalog{
-    width: 80%;
+    float: right;
+    width: 80%; 
+    }
+.catalog>ul{
+    list-style: none;
+}
+.catalog>li{
+    display: block;
+    float: left;
 }
 h1{
     display: block;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
