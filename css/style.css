@@ -150,9 +150,9 @@ fieldset{
     }
 .catalog>ul{
     list-style: none;
+    display: block;
 }
 .catalog>li{
-    display: block;
     float: left;
 }
 h1{
