@@ -181,8 +181,8 @@ a.button{
     padding: 10px 15px;
     
 }
-.pagination{
-    
+img{
+    width: 100%;
 }
 .pagination .button{
     display: inline-block;
