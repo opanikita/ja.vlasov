@@ -156,19 +156,20 @@ footer{
 fieldset{
     border: 0;
 }
-/*.catalog{
+.catalog{
     float: right;
     width: 80%; 
-    }*/
+    }
 .catalog>ul{
     list-style: none;
     display: block;
 }
 .catalog-item{
     margin: 0 20px 20px 0;
+    padding-left: 10px;
     width: 27%;
     float: left;
-    text-align: right;
+    text-align: left;
     box-shadow: 0 0 7px #949494;
 }
 h1{
