@@ -18,8 +18,9 @@ header{
     font-size: 16px;
 }
 .main-menu{
-    width: 70%;
+    width: 90%;
     float: left;
+    display: inline-block;
 }
 ul.nav {
     list-style: none;
@@ -30,15 +31,17 @@ ul.nav>li {
     margin: 20px;
 }
 .login-user{
-    width: 30%;
+    width: 10%;
     float: right;
     text-align: right;
 }
 .login-user>a{
     padding: 20px;
-    /* margin: 20px 30px 13px 30px; */
-    font-size: 16px;
+    font-size: 14px;
     display: inline-block;
+}
+.main-menu, .login-user{
+    margin: 0;
 }
 .clearfix::after{
     content: "";
@@ -133,6 +136,10 @@ footer{
     width: 43px;
     height: 43px;
     display: inline-block;
+}
+.shop{
+    background: url("catalog/bg-catalog.png");
+    color: #000;
 }
 .filter-catalog{
     margin: 50px 0;
