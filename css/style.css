@@ -181,7 +181,7 @@ a.button{
     padding: 10px 15px;
     
 }
-img{
+.catalog-item>a>img{
     width: 100%;
 }
 .pagination .button{
@@ -190,5 +190,16 @@ img{
     padding: 10px;
     width: 45px;
     margin-right: 10px;
+}
+.item-info{
+    width: 100%;
+}
+.photo-des{
+    float: left;
+    width: 60%;
+}
+.item-description{
+    float: right;
+    width: 40%;
 }
 
