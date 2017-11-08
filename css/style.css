@@ -183,7 +183,7 @@ fieldset{
     margin: 0 20px 20px 0;
     padding-left: 10px;
     width: 27%;
-    float: left;
+    display: inline-block;
     text-align: left;
     box-shadow: 0 0 7px #949494;
 }
