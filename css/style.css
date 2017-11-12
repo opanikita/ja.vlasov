@@ -186,6 +186,7 @@ fieldset{
     display: inline-block;
     text-align: left;
     box-shadow: 0 0 7px #949494;
+    height: auto;
 }
 h1{
     display: block;
