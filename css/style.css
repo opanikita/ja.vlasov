@@ -197,16 +197,13 @@ h1{
 }
 .item-buy span{
     width: 60%;
-    float: left;
 }
 a.button{
     padding: 10px 15px;
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 10px;
     height: auto;
     text-align: center;
-    width: 30%;
-    float: left;
 }
 .catalog-item>a>img{
     width: 100%;
