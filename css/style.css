@@ -205,7 +205,8 @@ a.button{
     margin-left: 5px;
     height: auto;
     text-align: center;
-    width: 40%;
+    width: 30%;
+    float: left;
 }
 .catalog-item>a>img{
     width: 100%;
