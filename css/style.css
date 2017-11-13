@@ -181,12 +181,11 @@ fieldset{
 }
 .catalog-item{
     margin: 0 20px 20px 0;
-    padding-left: 10px;
+    padding: 20px;
     width: 27%;
     display: inline-block;
     text-align: left;
     box-shadow: 0 0 7px #949494;
-    height: auto;
 }
 .catalog-item a{
     display: inline-block;
@@ -196,11 +195,18 @@ h1{
     font-size: 30px;
     margin-bottom: 15px;
 }
+.item-buy span{
+    width: 60%;
+    float: left;
+}
 a.button{
     padding: 10px 15px;
     display: inline-block;
     margin-left: 5px;
-    }
+    height: auto;
+    text-align: center;
+    width: 40%;
+}
 .catalog-item>a>img{
     width: 100%;
 }
