@@ -188,6 +188,9 @@ fieldset{
     box-shadow: 0 0 7px #949494;
     height: auto;
 }
+.catalog-item a{
+    display: inline-block;
+}
 h1{
     display: block;
     font-size: 30px;
@@ -195,8 +198,9 @@ h1{
 }
 a.button{
     padding: 10px 15px;
-    
-}
+    display: inline-block;
+    margin-left: 5px;
+    }
 .catalog-item>a>img{
     width: 100%;
 }
