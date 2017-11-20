@@ -218,8 +218,9 @@ a.button{
     width: 45px;
     margin-right: 10px;
 }
-.pagination .button:nth-child(2), .pagination.button:active{
+.pagination .button:nth-child(2), .pagination .button:active{
     background-color: #ffffff;
+    color: #000;
 }
 .item-info{
     width: 100%;
