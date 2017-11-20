@@ -36,7 +36,9 @@ ul.nav>li {
     text-align: right;
 }
 .login-user>a{
-    padding: 25px;
+    background: url(img/sprites.png) no-repeat;
+    padding: 10px 20px;
+    margin: 10px;
     font-size: 14px;
     display: inline-block;
 }
@@ -193,6 +195,7 @@ h1{
     margin-bottom: 15px;
 }
 .item-buy span{
+    padding: 14px;
     width: 40%;
     float: left;
     text-align: center;
