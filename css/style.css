@@ -199,11 +199,11 @@ h1{
     width: 40%;
     float: left;
     text-align: center;
+    background-color: #e5e5e5;
 }
 a.button{
     padding: 10px 15px;
     display: inline-block;
-    margin-left: 10px;
     height: auto;
     text-align: center;
     width: 50%;
@@ -216,7 +216,7 @@ a.button{
     text-align: center;
     padding: 10px;
     width: 45px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .pagination .button:nth-child(2), .pagination .button:active{
     background-color: #ffffff;
@@ -232,5 +232,11 @@ a.button{
 .item-description{
     float: right;
     width: 40%;
+}
+.amout-article{
+    margin: 20px 0;
+}
+.info{
+    margin: 20px 0;
 }
 
