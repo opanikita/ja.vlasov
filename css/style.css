@@ -36,7 +36,9 @@ ul.nav>li {
     text-align: right;
 }
 .login-user>a{
-    padding: 25px;
+    background: url(img/sprites.png) -50px -35px no-repeat;
+    padding: 10px 20px;
+    margin: 10px;
     font-size: 14px;
     display: inline-block;
 }
@@ -71,6 +73,7 @@ a{
 h2{
     font-size: 30px;
     line-height: calc(42/30);
+    margin: 0 0 10px 0;
 }
 .quality{
     width: 100%;
@@ -108,9 +111,6 @@ article>h3{
 article>p{
     color: #000000;
     line-height: calc(24/14);
-}
-p{
-    display: block;
 }
 .news, .photogal, .contacts, .form{
     float: left;
@@ -199,16 +199,18 @@ h1{
     width: 100%;
 }
 .item-buy span{
-    width: 60%;
+    padding: 10px;
+    width: 40%;
     float: left;
+    text-align: center;
+    background-color: #e5e5e5;
 }
 a.button{
     padding: 10px 15px;
     display: inline-block;
-    margin-left: 10px;
     height: auto;
     text-align: center;
-    width: 40%;
+    width: 50%;
 }
 .catalog-item>a>img{
     width: 100%;
@@ -218,7 +220,11 @@ a.button{
     text-align: center;
     padding: 10px;
     width: 45px;
-    margin-right: 10px;
+    margin-right: 5px;
+}
+.pagination .button:nth-child(2), .pagination .button:active{
+    background-color: #ffffff;
+    color: #000;
 }
 .item-info{
     width: 100%;
@@ -231,4 +237,15 @@ a.button{
     float: right;
     width: 40%;
 }
+.amout-article{
+    margin: 20px 0;
+}
+.amout-article span{
+    display: inline-block;
+    margin-right: 50px;
+}
+.info{
+    margin: 20px 0;
+}
+
 
