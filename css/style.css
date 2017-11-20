@@ -236,7 +236,11 @@ a.button{
 .amout-article{
     margin: 20px 0;
 }
+.amout-article span{
+    display: block;
+}
 .info{
     margin: 20px 0;
 }
+
 
