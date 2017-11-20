@@ -73,6 +73,7 @@ a{
 h2{
     font-size: 30px;
     line-height: calc(42/30);
+    margin: 0 0 10px 0;
 }
 .quality{
     width: 100%;
@@ -237,7 +238,8 @@ a.button{
     margin: 20px 0;
 }
 .amout-article span{
-    display: block;
+    display: inline-block;
+    margin-right: 50px;
 }
 .info{
     margin: 20px 0;
