@@ -187,6 +187,9 @@ fieldset{
     text-align: left;
     box-shadow: 0 0 7px #949494;
 }
+.description{
+    padding: 15px;
+}
 .catalog-item a{
     display: inline-block;
 }
@@ -252,5 +255,4 @@ a.button{
     border: 2px solid #000;
     color: #000;
 }
-
 
