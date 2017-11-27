@@ -188,7 +188,10 @@ fieldset{
     box-shadow: 0 0 7px #949494;
 }
 .description{
-    padding: 15px;
+    padding: 3px;
+}
+.description p{
+    font-size: 13px;
 }
 .catalog-item a{
     display: inline-block;
