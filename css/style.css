@@ -181,8 +181,8 @@ fieldset{
 }
 .catalog-item{
     margin: 0 20px 20px 0;
-    padding: 20px;
-    width: 29%;
+    padding: 20px 6px;
+    width: 30%;
     display: inline-block;
     text-align: left;
     box-shadow: 0 0 7px #949494;
@@ -191,7 +191,7 @@ fieldset{
     padding: 3px;
 }
 .description p{
-    font-size: 10px;
+    font-size: 13px;
 }
 .catalog-item a{
     display: inline-block;
